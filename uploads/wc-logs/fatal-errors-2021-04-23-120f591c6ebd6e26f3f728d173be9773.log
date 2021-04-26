@@ -1,0 +1,66 @@
+2021-04-23T14:38:28+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\sportroof\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Api.php:222
+Stack trace:
+#0 C:\xampp\htdocs\sportroof\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Api.php(222): array_diff(NULL, Array)
+#1 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(292): Automattic\WooCommerce\Blocks\Payments\Api->verify_payment_methods_dependencies('')
+#2 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sportroof\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sportroof\wp-includes\functions.wp-scripts.php(95): do_action('wp_print_script...')
+#5 C:\xampp\htdocs\sportroof\wp-includes\class-wp-editor.php(1554): wp_print_scripts(Array)
+#6 C:\xampp\htdocs\sportroof\wp-includes\class-wp-editor.php(1003): _WP_Editors::print_tinymce_scripts()
+#7 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\core\editor\editor.php(757): _WP_Editors::print_default_editor_scripts()
+#8 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\core\editor\editor.php(556): Elementor\Core\Editor\Editor->get_wp_editor_config()
+#9 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(292): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#10 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\sportroof\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\sportroof\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#13 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#14 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#15 C:\xampp\htdocs\sportroof\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\sportroof\wp-includes\general-template.php(3009): do_action('wp_head')
+#17 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#18 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\core\editor\editor.php(322): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\core\editor\editor.php(163): Elementor\Core\Editor\Editor->print_editor_template()
+#20 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(292): Elementor\Core\Editor\Editor->init('')
+#21 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#22 C:\xampp\htdocs\sportroof\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#23 C:\xampp\htdocs\sportroof\wp-admin\admin.php(408): do_action('admin_action_el...')
+#24 C:\xampp\htdocs\sportroof\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#25 {main}
+  thrown in C:\xampp\htdocs\sportroof\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Api.php on line 222
+
+2021-04-23T14:38:47+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\sportroof\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Api.php:222
+Stack trace:
+#0 C:\xampp\htdocs\sportroof\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Api.php(222): array_diff(NULL, Array)
+#1 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(292): Automattic\WooCommerce\Blocks\Payments\Api->verify_payment_methods_dependencies('')
+#2 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sportroof\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sportroof\wp-includes\functions.wp-scripts.php(95): do_action('wp_print_script...')
+#5 C:\xampp\htdocs\sportroof\wp-includes\class-wp-editor.php(1554): wp_print_scripts(Array)
+#6 C:\xampp\htdocs\sportroof\wp-includes\class-wp-editor.php(1003): _WP_Editors::print_tinymce_scripts()
+#7 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\core\editor\editor.php(757): _WP_Editors::print_default_editor_scripts()
+#8 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\core\editor\editor.php(556): Elementor\Core\Editor\Editor->get_wp_editor_config()
+#9 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(292): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#10 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\sportroof\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\sportroof\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#13 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#14 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#15 C:\xampp\htdocs\sportroof\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\sportroof\wp-includes\general-template.php(3009): do_action('wp_head')
+#17 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#18 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\core\editor\editor.php(322): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\sportroof\wp-content\plugins\elementor\core\editor\editor.php(163): Elementor\Core\Editor\Editor->print_editor_template()
+#20 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(292): Elementor\Core\Editor\Editor->init('')
+#21 C:\xampp\htdocs\sportroof\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#22 C:\xampp\htdocs\sportroof\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#23 C:\xampp\htdocs\sportroof\wp-admin\admin.php(408): do_action('admin_action_el...')
+#24 C:\xampp\htdocs\sportroof\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#25 {main}
+  thrown in C:\xampp\htdocs\sportroof\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Api.php on line 222
+
+2021-04-23T16:36:16+00:00 CRITICAL Cannot redeclare sydney_widgets_init() (previously declared in C:\xampp\htdocs\sportroof\wp-content\themes\sydney-child\functions.php:103) in C:\xampp\htdocs\sportroof\wp-content\themes\sydney\functions.php on line 102
+
+2021-04-23T16:36:41+00:00 CRITICAL Cannot redeclare sydney_widgets_init() (previously declared in C:\xampp\htdocs\sportroof\wp-content\themes\sydney-child\functions.php:103) in C:\xampp\htdocs\sportroof\wp-content\themes\sydney\functions.php on line 102
+
+2021-04-23T16:36:43+00:00 CRITICAL Cannot redeclare sydney_widgets_init() (previously declared in C:\xampp\htdocs\sportroof\wp-content\themes\sydney-child\functions.php:103) in C:\xampp\htdocs\sportroof\wp-content\themes\sydney\functions.php on line 102
+

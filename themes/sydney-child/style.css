@@ -1,0 +1,15 @@
+/*
+Theme Name: Sydney Child
+Theme URI: https://athemes.com/theme/sydney-child
+description: Sydney Child Theme
+Author: aThemes
+Author URI: https://athemes.com
+Template: sydney
+Version: 1.76
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, right-sidebar, block-styles, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: sydney-child
+*/
+
+@import url("../sydney/style.css");

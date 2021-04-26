@@ -1,0 +1,11 @@
+.tax-product_cat .content-area{
+	float: right;
+}
+.tax-product_cat div#secondary.widget-area{
+	float: right;
+}
+@media only screen and (min-width:1200px){
+	.page-id-9 .woocommerce form.login{
+		width:60%;
+	}
+}

@@ -1,0 +1,9 @@
+.custom_reg td{
+	border: none;
+}
+.custom_reg input{
+	width:100%;
+}
+.custom_reg input.cf_rgbtn{
+	width: auto;
+}
